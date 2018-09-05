@@ -1,0 +1,22 @@
+{
+    "name": "jd4ri/test-plugin",
+    "description": "Test Plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Jonathan D. Forrider",
+            "email": "jd4rider@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0@dev"
+    }
+}
